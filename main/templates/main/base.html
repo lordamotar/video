@@ -27,7 +27,6 @@
 
   <!-- Main CSS File -->
   <link href="{% static 'main/css/main.css' %}" rel="stylesheet">
-  <link href="{% static 'main/css/style.css' %}" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Personal
@@ -55,7 +54,7 @@
           <li><a href="about' %}">About</a></li>
           <li><a href="resume' %}">Resume</a></li>
           <li><a href="services' %}">Services</a></li>
-          <li><a href="/">Portfolio</a></li>          
+          <li><a href="{% url 'portfolio' %}">Portfolio</a></li>          
           <li><a href="contact/">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
